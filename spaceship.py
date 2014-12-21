@@ -94,6 +94,8 @@ def vaisseau(a, b, c, d, length_nose, length_body, length_wing):
     bpy.ops.object.mode_set(mode='OBJECT')  
     bpy.ops.object.shade_smooth()
 
+    #update_bmesh(bm, mesh_data)    
+    #bm.free()
    
 def print_index():
     mesh = bpy.context.object
